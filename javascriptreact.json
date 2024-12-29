@@ -7,10 +7,10 @@
       "const ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}} = () => {",
       "    return (",
       "        <div className='${TM_FILENAME_BASE/^(.)/${1:/downcase}/}'>${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}</div>",
-      "    )",
+      "    );",
       "}",
       "",
-      "export default ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}" 
+      "export default ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}};" 
 		],
 		"description": "Create an arrow component with css"
     },
@@ -22,10 +22,10 @@
             "function ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}(){",
             "    return (",
             "        <div className='${TM_FILENAME_BASE/^(.)/${1:/downcase}/}'>${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}</div>",
-            "    )",
+            "    );",
             "}",
             "",
-            "export default ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}"
+            "export default ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}};"
         ],
         "description": "Create a functional component with Sass"
     },
@@ -37,10 +37,10 @@
             "const ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}} = () => {",
             "    return (",
             "        <div className='${TM_FILENAME_BASE/^(.)/${1:/downcase}/}'>${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}</div>",
-            "    )",
+            "    );",
             "}",
             "",
-            "export default ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}" 
+            "export default ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}};" 
 	],
 	"description": "Create an arrow component with Sass"
     },
@@ -50,10 +50,10 @@
       "const ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}} = () => {",
       "    return (",
       "        <div>${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}</div>",
-      "    )",
+      "    );",
       "}",
       "",
-      "export default ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}" 
+      "export default ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}};" 
 		],
 		"description": "Create a component"
 	},
@@ -63,10 +63,10 @@
       "const ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}} = () => {",
       "    return (",
       "        <div className=''>${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}</div>",
-      "    )",
+      "    );",
       "}",
       "",
-      "export default ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}" 
+      "export default ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}};" 
 		],
 		"description": "Create a component with tailwind classname"
 	}
