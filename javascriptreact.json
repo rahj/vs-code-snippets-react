@@ -69,7 +69,13 @@
       "export default ${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}};" 
 		],
 		"description": "Create a component with tailwind classname"
+	},
+"divt": {
+		"prefix": "divt",
+		"body": [
+      "<div className=''>${1:${TM_FILENAME_BASE/(.)(.*)/${1:/capitalize}${2}/}}</div>"
+	    ],
+		"description": "Create a div with tailwind classname"
 	}
-
 
 }
